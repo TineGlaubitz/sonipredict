@@ -1,0 +1,18 @@
+{
+  "template": "https://github.com/TineGlaubitz/cookiecutter-snekpack",
+  "commit": "e0fe55062845f481677103047b385a44a72ab7c1",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "package_name": "sonipredict",
+      "package_name_stylized": "sonipredict",
+      "short_description": "Predict agglomerate sizes after sonication",
+      "author_name": "Christina Glaubitz",
+      "author_email": "christina.glaubitz@unifr.ch",
+      "github_organization_name": "TineGlaubitz",
+      "github_repository_name": "sonipredict",
+      "_template": "https://github.com/TineGlaubitz/cookiecutter-snekpack"
+    }
+  },
+  "directory": null
+}
