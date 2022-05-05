@@ -38,18 +38,22 @@ shap_global_feature_map_merged = [
         "name": "energy density",
         "features": ["power_transform__Energy Density [J/mL]"],
     },
-    {
-        "name": "zeta potential",
-        "features": ["power_transform__Zeta Pot[mV]", "power_transform__abs_zeta"],
-    },
+    # {
+    #     "name": "zeta potential",
+    #     "features": ["power_transform__Zeta Pot[mV]", "power_transform__abs_zeta"],
+    # },
     {"name": "volume", "features": ["power_transform__Volume [mL]"]},
-    {
-        "name": "IEP",
-        "features": ["power_transform__Isoelectric Point", "power_transform__iep_stability"],
-    },
+    # {
+    #     "name": "IEP",
+    #     "features": ["power_transform__Isoelectric Point", "power_transform__iep_stability"],
+    # },
     {
         "name": "coating",
         "features": ["one_hot__Coating_Hydrophob"],
+    },
+    {
+        "name": "energy",
+        "features": ["power_transform__Total Energy [J]"],
     },
     {
         "name": "particle type",
@@ -74,6 +78,10 @@ shap_global_feature_map_lab = [
     {
         "name": "energy density",
         "features": ["power_transform__Energy Density [J/mL]"],
+    },
+    {
+        "name": "energy",
+        "features": ["power_transform__Total Energy [J]"],
     },
     {"name": "volume", "features": ["power_transform__Volume [mL]"]},
     {
