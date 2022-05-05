@@ -1,12 +1,7 @@
 
 <p align="center">
-  <img src="https://github.com/TineGlaubitz/sonipredict/raw/main/docs/source/figs/logo.png" height="150">
+  <img src="https://github.com/TineGlaubitz/sonipredict/raw/main/docs/source/figs/logo.png" height="300">
 </p>
-
-
-<h1 align="center">
-  sonipredict
-</h1>
 
 <p align="center">
     <a href="https://github.com/TineGlaubitz/sonipredict/actions?query=workflow%3ATests">
