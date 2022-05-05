@@ -38,15 +38,15 @@ shap_global_feature_map_merged = [
         "name": "energy density",
         "features": ["power_transform__Energy Density [J/mL]"],
     },
-    # {
-    #     "name": "zeta potential",
-    #     "features": ["power_transform__Zeta Pot[mV]", "power_transform__abs_zeta"],
-    # },
+    {
+        "name": "zeta potential",
+        "features": ["power_transform__Zeta Pot[mV]"],
+    },
     {"name": "volume", "features": ["power_transform__Volume [mL]"]},
-    # {
-    #     "name": "IEP",
-    #     "features": ["power_transform__Isoelectric Point", "power_transform__iep_stability"],
-    # },
+    {
+        "name": "IEP",
+        "features": ["power_transform__Isoelectric Point"],
+    },
     {
         "name": "coating",
         "features": ["one_hot__Coating_Hydrophob"],
